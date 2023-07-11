@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+   body{
+    height: 85vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2022/01/14172326/netflix.jpg);
+    background-repeat: no-repeat;
+   }
+
+
+    .box2{
+        width: 400px;
+        height: 420px ;
+        /* text-align: center; */
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.753);
+        box-shadow: 0px 0px 20px;
+        border: none;
+        margin-left: 500px;
+        margin-top: 100px;
+        
+    }
+    .Input1{
+        display: block;
+        width: 220px;
+        margin-left: 90px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .Input2{
+        display: block;
+        width: 220px;
+        margin-left: 90px;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    .Heading{
+        color: white;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    .btn{
+        margin-top: 30px;
+        margin-left: 90px;
+        width: 220px;
+        display: block;
+        
+    }
+    .checkbox{
+        margin-left: 90px;
+        margin-top: 15px;
+        color: white;
+    }
+    .spn{
+        color: white;
+        display: block;
+        text-size-adjust: 5px;
+        margin-left: 90px;
+        margin-top: 25px;
+    }
+</style>
+</head>
+<body>
+       
+        <div id="b2" class="box2 border border-dark">
+            <h2 class="Heading">Sign In</h2>
+            <input type="text" class="Input1" id="user_email" placeholder="Email Address" required>
+            <input type="password" class="Input2" id="user_pwd" placeholder="Password" required>  
+            <button type="button" class="btn btn-danger" id="" onclick="login_submit()">Log In</button> 
+            <input type="checkbox" class="checkbox"> 
+            <label for="" style="color: white;">Remember me</label> 
+            <span class="spn"> New to Netflix? <a style="text-decoration: none;" href="/index.html">Sign up now.</a></span>   
+            </div>
+
+        <script src="/index.js"></script>
+</body>
+</html>
