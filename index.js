@@ -34,13 +34,16 @@ function signup() {
         if (result) {
 
             document.getElementById("empty_error").innerText = "User already exist";
+            
 
         }
         else {
             console.log("Sign Up form successfully submitted");
+            window.location.href="videosPage.html"
             persons.push({
                 email: document.getElementById("user_email").value,
                 password: document.getElementById("user_pwd").value
+                
             });
             
             
